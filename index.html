@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>LuckyDoge Lotery</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/flip.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="not-launched">
+    <div class="bg-head">
+        <div id="particles-js"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="container-fluid">
+                            <div class="collapse navbar-collapse">
+                                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="#">Telegram</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="#">Presale</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="#">About</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="#">Roadmap</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="#">Contract</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col titles text-center mt-5 mb-5">
+                    <img style="width: 300px; height: auto; z-index: 1;" src="css/images/doge-tmp.png">
+                    <h1 class="text-white">LuckyDoge its a meme token with every day lotery!</h1>
+                    <h3 class="text-white">50% of TAX FEE gouse to winner!</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-winners">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="alert alert-doge">
+                        <h4>Lotery</h4>
+                        <p>Every day we hold a lottery between the holders LockyDoge.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="alert alert-doge">
+                        <h4>No Dev wallet</h4>
+                        <p>The admin has no coins and only receives a percentage of the TAX FEE.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="alert alert-doge">
+                        <h4>Transparent contract</h4>
+                        <p>Based on OpenZeppelin contract with added commission. No scam.
+                            <a href="" target="_blank">see contract</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="winners mt-5">                        
+                        <div class="timer-wrap mt-5 mb-5">
+                            <div class="tick" data-did-init="handleTickInit">
+                                <div data-repeat="true" data-layout="horizontal center fit" data-transform="preset(d, h, m, s) -> delay">
+                                    <div class="tick-group">
+                                        <div data-key="value" data-repeat="true" data-transform="pad(00) -> split -> delay">
+                                            <span data-view="flip"></span>
+                                        </div>
+                                        <span data-key="label" data-view="text" class="tick-label"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <h2 class="text-center mt-3">OUR WINNERS</h2>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Date</th>
+                                    <th scope="col">Address</th>
+                                    <th scope="col">Reward</th>
+                                    <th scope="col">Transaction</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>06/22/21</td>
+                                    <td>0x00000000000000000000000000000000000000</td>
+                                    <td>9999 LUCKY</td>
+                                    <td><a href="" target="_blank">see on bscscan</a></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td>06/23/21</td>
+                                    <td>0x00000000000000000000000000000000000000</td>
+                                    <td>99999 LUCKY</td>
+                                    <td><a href="" target="_blank">see on bscscan</a></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td>06/24/21</td>
+                                    <td>0x00000000000000000000000000000000000000</td>
+                                    <td>999999 LUCKY</td>
+                                    <td><a href="" target="_blank">see on bscscan</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <div class="winners-notice">
+                            <h3 class="text-center">The winners table will be populated after launch.</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="winners about">
+                        <h2 class="text-center mt-3 mb-4">ABOUT</h2>
+                        <table class="about-table">
+                            <tr>
+                                <td class="at-left-text">
+                                    Total Supply<br>
+                                    <b>1 000 000 000</b>
+                                </td>
+                                <td class="at-left-img">
+                                    <img src="css/images/coins.png">
+                                </td>
+                                <td class="at-right-img">
+                                    <img src="css/images/fees.png">
+                                </td>
+                                <td class="at-right-text">
+                                    TAX FEE: 10% <br>
+                                    <b>(5% to winner, 5% to dev)</b>
+                                </td>
+                            </tr>
+                        </table>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col col-about">
+                                    <p>
+                                        Hi, my name is Alex and I, like you, love cryptocurrencies and Shiba Inu dogs.
+                                        And like you, I don't like scams and one-day tokens. Therefore, I decided to create my own token, devoid of these disadvantages.
+                                    </p>
+                                    <p>
+                                        The daily lottery will provide an influx of new holders. There will be no point in selling tokens on the first day, 
+                                        because there will be a real chance to win a large amount (50% commission for all transactions for the current day). 
+                                        The winner will be selected at random from all the holders who will have the token on their account.
+                                    </p>
+                                    <p>
+                                        The team does not have tokens, their only reward is 50% of the transaction fee. So we are all interested in the success of the project.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="winners mt-5">
+                        <h2 class="text-center mt-3 mb-5">ROADMAP</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col"></div>
+                <div class="col">
+                    <div class="alert alert-doge">
+                        <h5>Evolution</h6>
+                        soon
+                    </div>
+                </div>
+                <div class="col"></div>
+                <div class="col">
+                    <div class="alert alert-doge">
+                        <h5>Fame</h5>
+                        soon
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="alert alert-doge">
+                        <h5>Beginning</h5>
+                        soon
+                    </div>
+                </div>
+                <div class="col"></div>
+                <div class="col">
+                    <div class="alert alert-doge">
+                        <h5>Rise</h5>
+                        soon
+                    </div>
+                </div>
+                <div class="col"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/web3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/particles.min.js"></script>
+    <script src="js/flip.min.js"></script>
+    <script src="js/abi.js"></script>
+    <script src="js/code.js"></script>
+</body>
+
+</html>

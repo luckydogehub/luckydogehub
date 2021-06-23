@@ -1,0 +1,163 @@
+.bg-head {
+    /* background: blueviolet; */
+    background: rgb(184,134,156);
+    background: radial-gradient(circle, rgba(184,134,156,1) 0%, rgba(138,43,226,1) 100%);
+    position: relative;
+}
+
+#particles-js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 568px;
+}
+
+.navbar {
+    border-radius: 0 0 10px 10px;
+    /* width: 900px;
+    margin: 0 auto; */
+}
+
+a {
+    color: #fff;
+}
+
+a:hover {
+    color: #fff;
+}
+
+.navbar a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #fff;
+}
+
+.bg-winners {
+    background: url("images/lv-bg-500.png") repeat;
+    padding-bottom: 36px;
+}
+
+.bg-winners .container {
+    margin-top: -30px;
+}
+
+.winners {
+    position: relative;
+    /* background: #9C7846; */
+    background: rgb(119,91,53);
+    background: linear-gradient(141deg, rgba(119,91,53,1) 0%, rgba(214,169,107,1) 100%);
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+    border: 1px solid #785C36;
+    border-radius: 10px;
+}
+
+.alert-doge {
+    background: rgb(119,91,53);
+    background: linear-gradient(141deg, rgba(119,91,53,1) 0%, rgba(214,169,107,1) 100%);
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+    border: none;
+}
+
+.table {
+    border-color: #000;
+}
+
+.winners-notice {
+    display: none;
+    position: absolute;
+    width: 100%;
+    top: 288px;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6)
+}
+
+.winners-notice h3 {
+    padding: 60px 0;
+    color: #707070;
+}
+
+.not-launched .winners-notice {
+    display: block;
+}
+
+.timer-wrap {
+    width: 67%;
+    margin: 0 auto;
+}
+
+.tick-credits {
+    display: none !important;
+}
+
+.tick-text {
+    font-size: 40px;
+}
+
+.tick-group {
+    margin-right: 20px;
+    text-align: center;
+}
+
+.tick-text {
+    font-size: 18px;
+    display: block !important;
+    padding-top: 10px;
+}
+
+.tokenomics-wrap {
+    background: #fec724 url("images/shiba-inu-yellow-bg-600.jpg") no-repeat;
+    background-position: bottom right;
+}
+
+.about {
+    margin-top: 63px;
+    background: #EFBC4F url("images/shib.jpeg") no-repeat bottom left;
+}
+
+.col-about {
+    padding-left: 422px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+}
+
+.col-about p {
+    margin-bottom: 20px;
+}
+
+.about-table {
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+.about-table img {
+    width: 60px;
+    height: 60px;
+}
+
+.at-left-text {
+    width: 300px;
+    text-align: right;
+    padding-right: 15px;
+}
+
+.at-left-img {
+    width: 80px;
+    padding-right: 20px;
+}
+
+.at-right-img {
+    width: 80px;
+    padding-left: 20px;
+}
+
+.at-right-text {
+    width: 300px;
+    padding-left: 10px;
+}
