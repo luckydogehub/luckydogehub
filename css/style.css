@@ -54,7 +54,8 @@ a:hover {
 }
 
 .bg-winners {
-    background: url("images/lv-bg-500.png") repeat;
+    background: url("images/bg-pt-500.png") repeat;
+    background-size: 139px;
     padding-bottom: 36px;
 }
 
