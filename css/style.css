@@ -1,5 +1,5 @@
 .bg-head {
-    /* background: blueviolet; */
+    height: 700px;
     background: rgb(184,134,156);
     background: radial-gradient(circle, rgba(184,134,156,1) 0%, rgba(138,43,226,1) 100%);
     position: relative;
@@ -18,6 +18,14 @@
 }
 
 #particles-js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 568px;
+}
+
+#head {
     position: absolute;
     top: 0;
     left: 0;
