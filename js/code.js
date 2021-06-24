@@ -13,3 +13,23 @@ function handleTickInit(tick) {
         tick.value = value;
     };
 }
+
+// Scroll
+let scrollBtn = document.getElementById('scroll-top');
+scrollBtn.addEventListener('click', scrollTop);
+window.onscroll = function() {
+    scrollDisplay();
+};
+
+function scrollDisplay() {
+  if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+    scrollBtn.style.display = "block";
+  } else {
+    scrollBtn.style.display = "none";
+  }
+}
+
+function scrollTop() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
