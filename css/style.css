@@ -47,7 +47,7 @@ h1, h2, h3 {
     font-family: 'Righteous', cursive;
 }
 
-a:hover {
+a:hover, a:visited {
     color: #fff;
 }
 
