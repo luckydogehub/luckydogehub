@@ -1,7 +1,6 @@
 .bg-head {
     height: 700px;
-    background: rgb(184,134,156);
-    background: radial-gradient(circle, rgba(184,134,156,1) 0%, rgba(138,43,226,1) 100%);
+    background: radial-gradient(circle, #D38E2B 0%, #7d39b4 100%);
     position: relative;
 }
 
@@ -11,6 +10,7 @@
 
 .titles h1, .titles h3 {
     text-shadow: -1px 1px 8px rgba(0,0,0,0.61);
+    transform: rotate(-1deg);
 }
 
 .titles h1 {
@@ -151,6 +151,7 @@ a:hover, a:visited {
 .about {
     margin-top: 63px;
     background: #EFBC4F url("images/shib.jpeg") no-repeat bottom left;
+    background-size: 550px;
 }
 
 .col-about {
@@ -230,4 +231,8 @@ a:hover, a:visited {
 .road li.done::before {
     background: url("images/check-box.png") no-repeat;
     background-size: 16px;
+}
+
+.container-roadmap .alert-doge {
+    transform: rotate(-1deg);
 }
