@@ -155,7 +155,7 @@ a:hover, a:visited {
 }
 
 .col-about {
-    padding-left: 422px;
+    padding-left: 360px;
     padding-right: 100px;
     padding-bottom: 50px;
 }
@@ -166,7 +166,7 @@ a:hover, a:visited {
 
 .about-table {
     margin: 0 auto;
-    margin-bottom: 60px;
+    margin-bottom: 10px;
 }
 
 .about-table img {
@@ -235,4 +235,34 @@ a:hover, a:visited {
 
 .container-roadmap .alert-doge {
     transform: rotate(-1deg);
+}
+
+.mb-60 {
+    margin-bottom: 60px;
+}
+
+.burned {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url("images/fire.png") no-repeat;
+    background-size: 100%;
+}
+
+.applink {
+    background: #A77D48;
+    /* background: linear-gradient(90deg, #D38E2B 0%, #7d39b4 100%);
+    background: linear-gradient(90deg, rgba(101,91,169,1) 0%, rgba(248,160,57,1) 50%, rgba(101,91,169,1) 100%); */
+    border-radius: 5px;
+}
+
+.app-screen {
+    float: right;
+    width: 400px;
+    padding: 20px;
+}
+
+.app-screen img {
+    width: 100%;
+    height: auto;
 }
