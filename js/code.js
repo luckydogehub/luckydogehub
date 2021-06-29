@@ -34,3 +34,9 @@ function scrollTop() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
+
+// Presale soon alert
+function presaleSoon(event) {
+  event.preventDefault();
+  alert('Presale soon. Visit telegram at @luckydoge_official');
+}
