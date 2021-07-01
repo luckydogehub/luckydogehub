@@ -38,5 +38,5 @@ function scrollTop() {
 // Presale soon alert
 function presaleSoon(event) {
   event.preventDefault();
-  alert('Presale soon. Visit telegram at @luckydoge_official');
+  alert('PRESALE JULY 5. Join telegram and stay tuned.');
 }
