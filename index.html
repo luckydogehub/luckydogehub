@@ -45,9 +45,6 @@
                                             <a class="nav-link active" href="https://t.me/luckydoge_official" target="_blank">Telegram</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link active" onclick="presaleSoon(event)" target="_blank">Presale</a>
-                                        </li>
-                                        <li class="nav-item">
                                             <a class="nav-link active" href="#about">About</a>
                                         </li>
                                         <li class="nav-item">
@@ -72,7 +69,6 @@
                         <h3 class="text-white">5% from transactions per day goes to the winner!</h3>
                         <br>
                         <a href="https://t.me/luckydoge_official" class="btn btn-doge" target="_blank">TELEGRAM</a>
-                        <a class="btn btn-doge" onclick="presaleSoon(event)" target="_blank">PRESALE</a>
                     </div>
                 </div>
             </div>
@@ -100,8 +96,7 @@
                     <div class="alert alert-doge">
                         <h6>TRANSPARENT CONTRACT</h6>
                         <p>Based on OpenZeppelin contract with added commission. No scam. It is easy to understand, anyone can check.
-                            <!-- https://github.com/luckydogehub/contract/blob/main/ContractOpenZeppelin.sol -->
-                            <a href="" target="_blank">see the contract</a>
+                            <a href="https://bscscan.com/address/0x3bBAB7B21Cc1DAf1Efc6060c66b5207F67Da506b#code" target="_blank">see the contract</a>
                         </p>
                     </div>
                 </div>
@@ -111,7 +106,49 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <div class="winners mt-5">                        
+                    <div class="winners mt-5">
+                        <h2 class="text-center mt-3">PRESALE STARTED</h2>
+
+                        <table class="about-table-presale">
+                            <tr>
+                                <td class="at-left-text">
+                                    <b>Presale price 30% less than PCS</b>
+                                </td>
+                                <td class="at-left-img">
+                                    <img src="css/images/chart.png">
+                                </td>
+                                <td class="at-right-img">
+                                    <img src="css/images/fees.png">
+                                </td>
+                                <td class="at-right-text">
+                                    <b>TAX FEE: 0% - presale without tax fee</b>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <p class="text-center mt-3"><i>Become an early investor now and get your bonuses!</i></p>
+
+                        <div class="presale-form">
+                            <div class="presale-min">Min 0.1 BNB</div>
+                            <div class="presale-max">Max 3 BNB</div>
+
+                            <label for="presale-amount" class="form-label">You contribute <span id="presale-contribute">1</span> BNB and will receive <span id="presale-receive">25000000</span> $LUCKY tokens</label>
+                            <div class="slidecontainer">
+                                <input type="range" class="form-range" value="1" min="0.1" step="0.01" max="3" id="presale-amount">
+                            </div>
+                            <div id="amount-reaction"></div>
+                            <button class="btn btn-doge" id="buy-now">BUY NOW</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="winners mt-5">     
+                        <h2 class="text-center mt-3">PANCAKESWAP LAUNCH</h2>                   
                         <div class="timer-wrap mt-5 mb-5">
                             <div class="tick" data-did-init="handleTickInit">
                                 <div data-repeat="true" data-layout="horizontal center fit" data-transform="preset(d, h, m, s) -> delay" style="font-size: 78.2744px;">
@@ -196,7 +233,7 @@
                         </table>
                         <p class="text-center mb-60">
                             <i class="burned"></i>25% burned.
-                            <a href="" target="_blank">proof (launch soon)</a>
+                            <a href="" target="_blank">proof (after launch)</a>
                         </p>
                         <div class="container">
                             <div class="row">
@@ -206,7 +243,7 @@
                                         And like you, I don't like scams and one-day tokens. Therefore, I decided to create my own token, devoid of these disadvantages.
                                     </p>
                                     <p>
-                                        The daily lottery will provide an influx of new holders. There will be no point in selling tokens on the first day, 
+                                        The daily lottery and the application will provide an influx of new holders. There will be no point in selling tokens on the first day, 
                                         because there will be a real chance to win a large amount (50% commission for all transactions for the current day). 
                                         The winner will be selected at random from all the holders who will have the token on their account.
                                     </p>
@@ -282,7 +319,7 @@
                     <div class="alert alert-doge">
                         <h6>EVOLUTION</h6>
                         <ul class="road">
-                            <li>Initial marketing.</li>
+                            <li>First wave of marketing.</li>
                             <li>PancakeSwap launch.</li>
                             <li>Start of daily lotteries.</li>
                         </ul>
@@ -308,7 +345,7 @@
                         <ul class="road">
                             <li class="done">Token development.</li>
                             <li class="done">Web site creation.</li>
-                            <li>Presale on Dxsale.</li>
+                            <li>Presale.</li>
                         </ul>
                     </div>
                 </div>
@@ -318,7 +355,7 @@
                         <h6>RISE</h6>
                         <ul class="road">
                             <li>New site (redesign for App.).</li>
-                            <li>Massive marketing (listings on specialized resources, promotion on coinhunt, paid ads).</li>
+                            <li>Massive marketing (more listings, paid ads).</li>
                         </ul>
                     </div>
                 </div>
@@ -331,6 +368,7 @@
         <img src="css/images/scroll-top.png">
     </div>
 
+    <script src="js/web3.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/particles.min.js"></script>
     <script src="js/flip.min.js"></script>

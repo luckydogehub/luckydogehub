@@ -105,7 +105,7 @@ a:hover, a:visited {
     display: none;
     position: absolute;
     width: 100%;
-    top: 288px;
+    bottom: 17px;
     left: 0;
     background-color: rgba(0, 0, 0, 0.6)
 }
@@ -174,6 +174,16 @@ a:hover, a:visited {
     height: 60px;
 }
 
+.about-table-presale {
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.about-table-presale img {
+    width: 40px;
+    height: 40px;
+}
+
 .at-left-text {
     width: 300px;
     text-align: right;
@@ -181,12 +191,12 @@ a:hover, a:visited {
 }
 
 .at-left-img {
-    width: 80px;
+    width: 60px;
     padding-right: 20px;
 }
 
 .at-right-img {
-    width: 80px;
+    width: 60px;
     padding-left: 20px;
 }
 
@@ -269,4 +279,64 @@ a:hover, a:visited {
 
 .app-desc {
     padding: 0 460px 0 60px;
+}
+
+.presale-form {
+    position: relative;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.presale-min {
+    position: absolute;
+    bottom: 34px;
+    left: 0;
+}
+
+.presale-max {
+    position: absolute;
+    bottom: 34px;
+    right: 0;
+    text-align: right;
+}
+
+#presale-contribute, #presale-receive {
+    display: inline-block;
+    font-weight: bold;
+    width: 33px;
+}
+
+#presale-receive {
+    width: 75px;
+}
+
+#buy-now {
+    font-weight: bold;
+}
+
+#amount-reaction {
+    font-size: 24px;
+    position: absolute;
+    bottom: 90px;
+    right: 170px;
+}
+
+.form-range {
+    outline: none;
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.form-range::-webkit-slider-thumb {
+    width: 20px; /* Set a specific slider handle width */
+    height: 20px; /* Slider handle height */
+    background: #4A332D; /* Green background */
+    margin-top: -6px;
+}
+
+.form-range::-moz-range-thumb {
+    width: 20px; /* Set a specific slider handle width */
+    height: 20px; /* Slider handle height */
+    background: #4A332D; /* Green background */
 }
